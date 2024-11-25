@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(90deg, #86eb85,#b10f0c,#c4e10e);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #86eb85,#b10f0c,#c4e10e);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+  }
+
+  
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+  }
+
+
+
+  #cadastroForm {
+    background: #da8044;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #b10f0c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
